@@ -1,4 +1,4 @@
-# Fastboot Enhance JP
+# Fastboot Enhance JP (非公式日本語版ビルド)
 
 ![A user-friendly **Fastboot ToolBox** & **Payload Dumper** for Windows](screenshots/Banner.png)
 
