@@ -1,49 +1,49 @@
-# Fastboot Enhance
+# Fastboot Enhance JP
 
 ![A user-friendly **Fastboot ToolBox** & **Payload Dumper** for Windows](screenshots/Banner.png)
 
 <img src="screenshots/ss1.png" width="400" height="300" /> <img src="screenshots/ss2.png" width="400" height="300" />
 <img src="screenshots/ss3.png" width="400" height="300" /> <img src="screenshots/ss4.png" width="400" height="300" />
 
-## What can it do?
+## 何ができるんですか?
 
-- Show fastboot vars
-- Switch between fastbootd, bootloader, recovery & system
-- Switch between A & B slot
-- **Flash Payload.bin in fastbootd**
-- Flash images
-- Erase partitions
-- Delete logical partitions
-- Create logical partitions
-- Resize logical partitions
-- Unpack Payload.bin
-- **Extract specific image from Payload.bin**
-- Show Payload vars
-- Show dynamic partition metadata
+- fastboot上でバージョンの表示
+- fastbootd、bootloader、recoveryとsystemの起動
+- A/Bスロットの切り替え
+- **FastbootdでPayload.binを書き込む機能**
+- イメージの書き込み
+- パーティションの消去
+- 論理パーティションの削除
+- 論理パーティションの作成
+- 論理パーティションのリサイズ
+- Payload.binの展開
+- **Payload.binから特定のイメージを抽出**
+- Payloadのバージョンを表示
+- 動的パーティションのメタデータを表示
 
-## Usage
+## 使用方法
 
-- Make sure `.NET Framework 4.5+` is supported
+- `.NET Framework 4.8以降` がインストール済みである事
 
-- Download `Release.zip` from [Github Releases](https://github.com/xzr467706992/FastbootEnhance/releases)
-- Unzip
-- Click `FastbootEnhance.exe`
+- `FastbootEnhance_jp.zip`を[GitHub Releases](https://github.com/reindex-ot/FastbootEnhance_jp/releases)からダウンロード
+- Zipファイルを展開
+- `FastbootEnhance.exe`を実行
 
-## Note
+## 注意事項
 
-- Incremental packages are not supported
+- インクリメンタルパッケージには非対応です。
 
-( I don't have a plan to support it in the future because it is quite useless )
+(かなり使い勝手が悪いので対応する予定はなし)
 
-- Still you are able to extract correct image from incremental packages if the checksum passes
+- しかしチェックサムが通るのであれば、インクリメンタルパッケージからイメージの抽出は可能です。
 
-( The checksum will be automatically done if "ignore checksum" is not checked )
+(チェックサムを無視するにチェックを入れてない場合はチェックサムを行ないます)
 
-## Building
+## ビルド環境
 
-- Clone and build it with Visual Studio
+- Visual Studio 2022を使用しています
 
-## Credits
+## クレジット
 
 - [Android Platform Tools](https://developer.android.com/studio/releases/platform-tools)
 - [DotNetZip](https://github.com/haf/DotNetZip.Semverd)
